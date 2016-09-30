@@ -17,18 +17,28 @@ body{
     font-size:50px;
 }
 
+
 .player-card{
+    margin:15px;
     display:inline-block;
     border: 1px solid black;
     background-color: rgba(255, 255, 255, .8);
+    
+    
 }
-
+.player-card:hover{
+    margin: 15px;
+    display:inline-block;
+    border: 1px solid black;
+    background-color:rgba(255, 255, 255, .8);
+    box-shadow: 1px 1px 5px white;
+}
 .card{
     background-color:rgba(225, 225, 225, 0.8);
     padding:20px;
     border-radius:4px;
     margin: 15px;
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 2px 2px 7px black;
     width: 400px;
 }
 .flex-form{
