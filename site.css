@@ -1,0 +1,47 @@
+body{
+    background: url('http://wallpapercave.com/wp/YNiF14S.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+.bevan{
+    font-family: 'Bevan', cursive;
+}
+.neuton{
+    font-family: 'Neuton', serif;
+}
+.header{
+    color:black;    
+    text-shadow: 2px 2px 5px white;
+    font-size:50px;
+}
+
+.player-card{
+    display:inline-block;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.card{
+    background-color:rgba(225, 225, 225, 0.8);
+    padding:20px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    width: 400px;
+}
+.flex-form{
+    display:flex;
+    justify-content:center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+.flex-roster{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
