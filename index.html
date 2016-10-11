@@ -1,50 +1,43 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>NFL Roster</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Bevan|Neuton" rel="stylesheet">
-    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="header text-center">
+            <h1 class="bevan header">My Roster</h1>
+        </div>
+        <div>
+            <button class="btn saveMyRoster">Save</button>
+        </div>
+
+        <div id="my-roster" class="row">
+            <!--My Roster-->
+        </div>
+
+        <div class="header text-center">
             <h1 class="bevan header">NFL Roster</h1>
         </div>
-        <div class="row">
 
-            <div id="roster" class="flex-roster player-roster">
-                
-                <div class="player-card text-center">                    
-                    <img src="http://s.nflcdn.com/static/content/public/image/fantasy/transparent/200x200/" alt="">
-                    <h3 class="bevan">Players Name</h3>
-                    <h4 class="neuton">Players Position</h4>
-                    <h5 class="neuton">Players Number</h5>
-                    <button class ="btn-danger" type="remove">Remove</button>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="flex-form">
-                <div class="player-form card">
-                    <form onSubmit="getInfo(event)">
-                        <input type="text" name="playerName" class="form-control" placeholder="Name">
-                        <input type="text" name="playerPosition" class="form-control" placeholder="Position">
-                        <input type="text" name="playerJersey" class="form-control" placeholder="Jersey">
-                        <button type="submit">Add</button>
-                    </form>
-
-                </div>
-            </div>
+        <div id="roster" class="row">
+            <!--NFL Roster-->
         </div>
     </div>
-    <script src="app.js"></script>
+
+    </div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="PlayerService.js"></script>
+    <script src="PlayerController.js"></script>
+    <!--<script src="app.js"></script>-->
 </body>
 
 </html>

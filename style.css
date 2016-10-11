@@ -26,13 +26,7 @@ body{
     
     
 }
-.player-card:hover{
-    margin: 15px;
-    display:inline-block;
-    border: 1px solid black;
-    background-color:rgba(255, 255, 255, .8);
-    box-shadow: 1px 1px 5px white;
-}
+
 .card{
     background-color:rgba(225, 225, 225, 0.8);
     padding:20px;
@@ -54,4 +48,7 @@ form{
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
+}
+.mugshot{
+    width:250px;
 }
